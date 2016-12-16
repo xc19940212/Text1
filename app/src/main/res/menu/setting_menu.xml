@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/ic_alarm_on_black_24dp"
+        android:title="menu1"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/ic_alarm_on_black_24dp"
+        android:title="menu2"
+        />
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/ic_alarm_on_black_24dp"
+        android:title="menu3"
+        />
+    <item
+        android:id="@+id/submenu"
+        android:icon="@drawable/ic_album_black_24dp"
+        android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/submenu1"
+                android:icon="@drawable/ic_all_out_black_24dp"
+                android:title="zicaidan1"/>
+            <item
+                android:id="@+id/submenu2"
+                android:icon="@drawable/ic_all_out_black_24dp"
+                android:title="zicaidan2"/>
+            <item
+                android:id="@+id/submenu3"
+                android:icon="@drawable/ic_all_out_black_24dp"
+                android:title="zicaidan3"/>
+
+        </menu>
+
+    </item>
+</menu>
